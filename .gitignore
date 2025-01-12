@@ -1,0 +1,39 @@
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+
+# Django-specific files
+db.sqlite3
+model.pkl
+
+# Virtual environment
+venv/
+.env
+
+# Static and media files (if dynamically generated)
+static/
+media/
+
+# Migrations cache files
+*/migrations/__pycache__/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and debugging
+*.log
+
+# Deployment-related files (optional, based on your deployment method)
+*.bak
+*.swp
+
+# Build files
+*.egg-info/
+dist/
+build/
+
+# Node.js files (if applicable)
+node_modules/
